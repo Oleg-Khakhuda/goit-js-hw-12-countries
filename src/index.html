@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <title>Поиск страны</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -12,15 +12,14 @@
     />
   </head>
   <body>
+    <h1 class="title-form">Planet Earth</h1>
     <form class="form-inline search-form js-search-form">
       <div class="form-group">
-        <input type="text" class="form-control" name="query" />
+        <input type="text" class="form-control" name="query" placeholder="Enter country name"/>
       </div>
     </form>
 
     <div class="js-card-container"></div>
-   
-    <include src="./partials/example.html"></include>
 
    
     <script src="./index.js"></script>
